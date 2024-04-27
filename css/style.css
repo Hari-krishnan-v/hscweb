@@ -722,7 +722,8 @@ header.sticky ul{
 
 .gallery-item {
     position: relative;
-    width: 23%;
+    height: 370px;
+    width: 280px;
     border-radius: 20px;
     margin-top: 1.5rem;
     overflow: hidden;
