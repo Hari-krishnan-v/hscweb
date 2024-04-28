@@ -187,16 +187,7 @@ header ul li a:hover{
   
 header.sticky ul li a:hover{
     color: white;
-    box-sizing: border-box;
-    padding: 10px;
-    background: #f09433; 
-    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #310350 75%, #bc1888 100%); 
-    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#3a023b 75%,#bc1888 100%); 
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#770d05 50%,#ce0606 75%,#5f0843 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-    width: 100%;
-    border-radius: 5px;
-    text-shadow: 3px 3px 20px #150125, -2px 1px 30px var(--text-color);
+    text-shadow: 3px 3px 20px var(--main-color), -2px 1px 30px var(--text-color);
   } 
 
 header ul li:hover::after{
@@ -672,6 +663,9 @@ header.sticky ul{
 
 /* jarallax */
 
+
+
+
 .jarallax {
     position: relative;
     background: url('../images/background/gEPOrzw-minecraft-desktop-backgrounds.jpg') no-repeat center center/cover;
@@ -834,7 +828,7 @@ header.sticky ul{
 }
 .social-icons-m a:hover{
     color: #fff;
-    width: 90px;
+    /* width: 90px; */
     transition: width 300ms ease-in-out 0s,background-color 100ms linear 0s;
 }
 
