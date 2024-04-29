@@ -186,7 +186,7 @@ header ul li a:hover{
   
   
 header.sticky ul li a:hover{
-    color: white;
+    color:  #f09433;
     text-shadow: 3px 3px 20px var(--main-color), -2px 1px 30px var(--text-color);
   } 
 
@@ -538,8 +538,16 @@ header.sticky ul{
 
 .s_img2{
     position: absolute;
-    right: 0;
+    right: 10px;
     bottom: 0;
+    
+}
+
+.s_img3{
+    position: absolute;
+    left: 0;
+    top: 0;
+    
 }
 
 
