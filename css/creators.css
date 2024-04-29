@@ -533,9 +533,9 @@ header.sticky ul{
 
 .gallery-item{
     position: relative;
-    height: 90px;
-    width: 90px;
-    border-radius: 50%;
+    height: 370px;
+    width: 280px;
+    border-radius: 20px;
     margin-top: 1.5rem;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
