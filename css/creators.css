@@ -765,7 +765,7 @@ header.sticky ul{
     position: absolute;
     padding-top: 64px;
     padding-right: -32px;
-    left: 450px;
+
     font-family: var(--title-font);
     font-size: 50px;
     font-weight: bold;
